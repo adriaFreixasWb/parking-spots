@@ -20,5 +20,5 @@ motorcycleList.Add(new MotorCycle { Color = "Green", LicencePlate = "B-2468" });
 
 for (int i = 0; i < motorcycleList.Count; i++)
 {
-    Console.WriteLine(motorcycleList[i] + " car with licence plate " + motorcycleList[i]);
+    Console.WriteLine(motorcycleList[i].Color + " motorcycle with licence plate " + motorcycleList[i].LicencePlate);
 }
