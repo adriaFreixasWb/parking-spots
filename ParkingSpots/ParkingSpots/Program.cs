@@ -8,5 +8,5 @@ carList.Add(redCar);
 var blueCar = new Car { Color = "Blue", LicencePlate = "4567K" };
 carList.Add(blueCar);
 
-Console.WriteLine(carList[0] + " car with licence plate " + redCar.LicencePlate);
-Console.WriteLine(carList[1] + " car with licence plate " + blueCar.LicencePlate);
+Console.WriteLine(carList[0] + " car with licence plate " + carList[0].LicencePlate);
+Console.WriteLine(carList[1] + " car with licence plate " + carList[1].LicencePlate);
