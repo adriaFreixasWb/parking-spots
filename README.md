@@ -1,3 +1,8 @@
 # parking-spots
+Application that manages parking spots
 
-Application prints cars.
+# 01-Car printing
+We need to bulid an application that can create cars
+* Red car with licence plate 1234L
+* Blue car with licence plate 4567K
+The application must print all created cars.
