@@ -47,3 +47,16 @@ As we did in step 2 let's create a motorcycle object, then:
 * Create a couple of instances
 * Save those instances to a list
 * Loop through motorcycle list and print its features
+
+# Parking exercise
+
+From this point on we are going to base our exercises on the fames [Parking spot Object oriented princials test](https://www.geeksforgeeks.org/design-parking-lot-using-object-oriented-principles/).
+We are going to aim for a simplified form.
+
+## 06-Vehicle parent class
+
+Since Car and Motorcycle classes are similiar, let's create a parent class holding the methods.
+A parent class is a type of abstraction that let's you share code between objects.
+
+The new feature is going to be add a Vehicle type, to the parent class.
+Now from the constructor we will set them
