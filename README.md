@@ -48,15 +48,19 @@ As we did in step 2 let's create a motorcycle object, then:
 * Save those instances to a list
 * Loop through motorcycle list and print its features
 
+## 06-Vehicle type enumeration
+
+Up until now we set every property on a class from outside, but it is time to start setting properties from inside.
+There is no better way to do that than creating a  [read only property](https://docs.microsoft.com/en-us/dotnet/csharp/properties#read-only). To that end let's use the [constructor](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/constructors) to create a [Enumeration](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/enum?f1url=%3FappId%3DDev16IDEF1%26l%3DEN-US%26k%3Dk(enum_CSharpKeyword);k(DevLang-csharp)%26rd%3Dtrue) that depicts vehicle type for our read only property
+
 # Parking exercise
 
 From this point on we are going to base our exercises on the fames [Parking spot Object oriented princials test](https://www.geeksforgeeks.org/design-parking-lot-using-object-oriented-principles/).
 We are going to aim for a simplified form.
 
-## 06-Vehicle parent class
+## 07-Vehicle parent class
 
-Since Car and Motorcycle classes are similiar, let's create a parent class holding the methods.
-A parent class is a type of abstraction that let's you share code between objects.
+We have code duplicated on Car and Motorcycle classes, let's remove it by creating a [parent class](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/language-specification/classes#14242-base-classes)
+A parent class is a type of abstraction that to share code between objects.
 
-The new feature is going to be add a Vehicle type, to the parent class.
-Now from the constructor we will set them
+The new feature is going to be add a Vehicle type, to the parent class, so all vehicles can be kept in a single list
