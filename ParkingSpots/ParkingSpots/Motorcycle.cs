@@ -1,8 +1,9 @@
 ﻿namespace ParkingSpots
 {
-    public class MotorCycle
+    public class MotorCycle:Vehicle
     {
-        public string Color { get; set; }
-        public string LicencePlate { get; set; }
+        public MotorCycle():base(VehicleType.Motorcycle)
+        {
+        }
     }
 }

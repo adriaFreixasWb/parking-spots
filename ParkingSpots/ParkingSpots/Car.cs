@@ -1,9 +1,9 @@
 ﻿namespace ParkingSpots
 {
-    public class Car
+    public class Car : Vehicle
     {
-        public string Color { get; set; }
-        public string LicencePlate { get; set; }
-
+        public Car():base(VehicleType.Car)
+        {
+        }
     }
 }
