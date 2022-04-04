@@ -1,7 +1,10 @@
 ﻿// See https://aka.ms/new-console-template for more information
-using ParkingSpots;
+var redCarColor = "red";
+var redCarLicencePlate = "1234L";
+//print red car
+Console.WriteLine(redCarColor + " car with licence plate " + redCarLicencePlate);
 
-var redCar = new Car { Color = "Red", LicencePlate = "1234L" };
-var blueCar = new Car { Color = "Blue", LicencePlate = "4567K" };
-Console.WriteLine(redCar.Color + " car with licence plate " + redCar.LicencePlate);
-Console.WriteLine(blueCar.Color + " car with licence plate " + blueCar.LicencePlate);
+var blueCarColor = "blue";
+var blueCarLicencePlate = "4567K";
+//print blue car
+Console.WriteLine(blueCarColor + " car with licence plate " + blueCarLicencePlate);
