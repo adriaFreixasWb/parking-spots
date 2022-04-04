@@ -11,4 +11,6 @@ The application must print all created cars.
 Let's create a class car with properties:
 * Color 
 * Licence plate
+
+
 And use the information for the cars on step 1
