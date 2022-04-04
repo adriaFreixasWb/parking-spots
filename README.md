@@ -27,3 +27,17 @@ List have numbered positions starting for 0, there for our **first item** is car
 
 At this exercise we are going to add our created cars from step 2 into a car collection called carList.
 Once we are done cars features will be printed accessing our list by car index;
+
+# 04-For loop to print cars
+
+Loops are iterative structures, this very feature makes them ideal to look through all positions of a list.
+For loops have a starting point, a maximum number and an increment, the following has:
+* i is set as 0 to start
+* will increase as far as i is lower that max
+* i++ means increment 1 per cycle
+
+```
+for(int i = 0; i < max; i++)
+```
+
+For this exercise we will loop through the List created a step 4 and print each car feature
