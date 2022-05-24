@@ -25,7 +25,7 @@ In our example we have a List of type car
 var carList = new List<Car>();
 ```
 
-List have numbered positions starting for 0, there for our **first item** is carList[0] and our **second item** is carList[1].
+List have numbered positions starting for 0, therefore our **first item** is carList[0] and our **second item** is carList[1].
 
 At this exercise we are going to add our created cars from step 2 into a car collection called carList.
 Once we are done cars features will be printed accessing our list by car index;
@@ -57,12 +57,12 @@ There is no better way to do that than creating a  [read only property](https://
 
 # Parking exercise
 
-From this point on we are going to base our exercises on the fames [Parking spot Object oriented princials test](https://www.geeksforgeeks.org/design-parking-lot-using-object-oriented-principles/).
+From this point on we are going to base our exercises on the famous [Parking spot Object oriented princials test](https://www.geeksforgeeks.org/design-parking-lot-using-object-oriented-principles/).
 We are going to aim for a simplified form.
 
 ## 07-Vehicle parent class
 
 We have code duplicated on Car and Motorcycle classes, let's remove it by creating a [parent class](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/language-specification/classes#14242-base-classes)
-A parent class is a type of abstraction that to share code between objects.
+A parent class is a type of abstraction to share code between objects.
 
-The new feature is going to be add a Vehicle type, to the parent class, so all vehicles can be kept in a single list
+Our new feature is going to be adding a Vehicle type, to the parent class, so all vehicles can be kept in a single list
