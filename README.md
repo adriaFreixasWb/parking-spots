@@ -1,5 +1,6 @@
 # parking-spots
 Application that manages parking spots
+For a hello world tutorial use [Microsoft's net 5 learn](https://dotnet.microsoft.com/en-us/learn/dotnet/hello-world-tutorial/intro)
 
 ## 01-Car printing
 We need to bulid an application that can create cars
